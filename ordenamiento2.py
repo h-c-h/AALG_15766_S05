@@ -1,9 +1,9 @@
-def ordbrubuja(arr):
+def ordburbuja(arr):
     for i in range(1, len(arr)):
         for j in range(0, len(arr) - i):
             if arr[j] > arr[j + 1]:
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
 
 a = [2, 8, 5, 3, 9, 4, 1]
-ordbrubuja(a)
+ordburbuja(a)
 print(a)
